@@ -1,0 +1,25 @@
+.truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.extraLarge {
+  font-size: 2rem;
+}
+
+.large {
+  font-size: 1.5rem;
+}
+
+.normal {
+  font-size: 1rem;
+}

@@ -1,3 +1,4 @@
+import { Body, Emphasis, Subtitle, Title } from "../../design_system/typography";
 import { useFindHotels } from "../../services/hotel_service/hotel_queries";
 import { HotelService } from "../../services/hotel_service/hotel_service"
 import { ItemImage } from "./list/item/image/item_image";
@@ -33,15 +34,15 @@ export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
   const content = data.results.map(result => (
     <ItemSkeleton
       image={<ItemImage imageUrl={result.property.previewImage.url} />}
-      imageLabel={result.offer.promotion.title}
-      title={result.property.title}
-      address={result.property.address.join(', ')}
+      imageLabel={<Body color="red">{result.offer.promotion.title}</Body>}
+      title={<Title>{result.property.title}</Title>}
+      address={<Subtitle color="grey">{result.property.address.join(', ')}</Subtitle>}
       rating={result.property.rating.ratingValue}
-      room={result.offer.name}
-      promotion={result.offer.cancellationOption.cancellationType}
-      price={result.offer.displayPrice.amount}
-      savings={result.offer.savings?.amount}
-      priceLabel={`1 night total ${result.offer.displayPrice.currency}`}
+      room={<Body color="red">{result.offer.name}</Body>}
+      promotion={<Body color="green">{result.offer.cancellationOption.cancellationType}</Body>}
+      price={<Emphasis>{result.offer.displayPrice.amount}</Emphasis>}
+      savings={<Body color="red">{result.offer.savings != null ? `Save ${result.offer.savings?.amount}~` : undefined}</Body>}
+      priceLabel={<Body>{`1 night total ${result.offer.displayPrice.currency}`}</Body>}
     />
   ));
 

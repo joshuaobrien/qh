@@ -12,4 +12,23 @@
 body {
   margin: 0;
   display: flex;
+  font-family: 'Ciutadella';
+}
+
+h2, h3 {
+  all: unset;
+}
+
+@font-face{
+  font-family: "Ciutadella";
+  font-weight: 400;
+  src:local("Ciutadella-Regular"),
+  url('./assets/fonts/CiutadellaRegular.woff2') 
+}
+
+@font-face{
+  font-family: "Ciutadella";
+  font-weight: 500;
+  src:local("Ciutadella-Medium"),
+  url('./assets/fonts/CiutadellaMedium.woff2') 
 }
