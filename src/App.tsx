@@ -8,9 +8,7 @@ type AppProps = {
 
 function App({ hotelService }: AppProps) {
   return (
-    <div>
-      <HotelListingsPage hotelService={hotelService} />
-    </div>
+    <HotelListingsPage hotelService={hotelService} />
   )
 }
 
