@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  background-color: goldenrod;
+}
+
+.imageContainer {
+  background-color: aliceblue;
+}
+
+.image {
+  background-color: lavender;
+}
+
+.imageLabel {
+  background-color: lightcoral;
+}
+
+.content {
+  display: flex;
+  background-color: beige;
+}
+
+.title {
+  background-color: lightblue;
+}
+
+.address {
+  background-color: lightgray;
+}
+
+.rating {
+  background-color: palegoldenrod;
+}
+
+.room {
+  background-color: lightpink;
+}
+
+.promotion {
+  background-color: lightsalmon;
+}
+
+.price {
+  background-color: lightseagreen;
+}
+
+.savings {
+  background-color: lightyellow;
+}
+
+.priceLabel {
+  background-color: moccasin;
+}
