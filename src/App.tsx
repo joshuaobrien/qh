@@ -1,5 +1,5 @@
 import './App.css'
-import { useFindHotels } from './services/hotel_service/hotel_queries'
+import { HotelListingsPage } from './features/hotel_listings/hotel_listings_page';
 import { HotelService } from './services/hotel_service/hotel_service'
 
 type AppProps = {
@@ -7,11 +7,9 @@ type AppProps = {
 }
 
 function App({ hotelService }: AppProps) {
-  const { data } = useFindHotels(hotelService, { sortOrder: 'low-first' })
-
   return (
     <div>
-      { JSON.stringify(data) }
+      <HotelListingsPage hotelService={hotelService} />
     </div>
   )
 }
