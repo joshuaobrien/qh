@@ -1,5 +1,6 @@
 import { useFindHotels } from "../../services/hotel_service/hotel_queries";
 import { HotelService } from "../../services/hotel_service/hotel_service"
+import { ItemImage } from "./list/item/image/item_image";
 import { ItemSkeleton } from "./list/item/item_skeleton";
 import { HotelListingsSkeleton } from "./skeleton/hotel_listings_skeleton";
 
@@ -31,7 +32,7 @@ export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
 
   const content = data.results.map(result => (
     <ItemSkeleton
-      image={result.property.previewImage.url}
+      image={<ItemImage imageUrl={result.property.previewImage.url} />}
       imageLabel={result.offer.promotion.title}
       title={result.property.title}
       address={result.property.address.join(', ')}
