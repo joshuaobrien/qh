@@ -42,7 +42,7 @@ export type DisplayPrice = z.infer<typeof DisplayPriceSchema>;
 export const SavingsSchema = z.object({
   amount: z.number(),
   currency: z.string()
-});
+}).nullable();
 
 export type Savings = z.infer<typeof SavingsSchema>;
 

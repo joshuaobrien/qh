@@ -3,7 +3,7 @@ import mockData from './mock_data.json';
 import { RootSchema, Result } from "./hotel_schema";
 import { z } from "zod";
 
-export class MockHotelService implements HotelService {
+export class MockHotelClient implements HotelService {
   private listings: Result[];
 
   constructor(private readonly syntheticDelayMs: number = 1000) {
