@@ -8,6 +8,8 @@
 
   width: 145px;
   height: 125px;
+
+  position: relative;
 }
 
 .image {
@@ -18,7 +20,14 @@
 }
 
 .imageLabel {
-  background-color: lightcoral;
+  position: absolute;
+  top: 5%;
+
+  padding: 4px 8px;
+
+  background-color: white;
+  
+  border-left: 1px solid lightgrey;
 }
 
 .content {
