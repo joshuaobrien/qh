@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Rating snapshots > matches snapshot for rating -1 and kind self 1`] = `
+exports[`Rating > matches snapshot for rating +0 and kind 'self' 1`] = `
 <div>
   <div
     aria-label="Rating: 0 out of 5. (self rated)"
@@ -96,7 +96,7 @@ exports[`Rating snapshots > matches snapshot for rating -1 and kind self 1`] = `
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating -1 and kind star 1`] = `
+exports[`Rating > matches snapshot for rating +0 and kind 'star' 1`] = `
 <div>
   <div
     aria-label="Rating: 0 out of 5. (official rating)"
@@ -197,7 +197,7 @@ exports[`Rating snapshots > matches snapshot for rating -1 and kind star 1`] = `
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating 0 and kind self 1`] = `
+exports[`Rating > matches snapshot for rating -1 and kind 'self' 1`] = `
 <div>
   <div
     aria-label="Rating: 0 out of 5. (self rated)"
@@ -293,7 +293,7 @@ exports[`Rating snapshots > matches snapshot for rating 0 and kind self 1`] = `
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating 0 and kind star 1`] = `
+exports[`Rating > matches snapshot for rating -1 and kind 'star' 1`] = `
 <div>
   <div
     aria-label="Rating: 0 out of 5. (official rating)"
@@ -394,7 +394,7 @@ exports[`Rating snapshots > matches snapshot for rating 0 and kind star 1`] = `
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating 1.5 and kind self 1`] = `
+exports[`Rating > matches snapshot for rating 1.5 and kind 'self' 1`] = `
 <div>
   <div
     aria-label="Rating: 1.5 out of 5. (self rated)"
@@ -490,7 +490,7 @@ exports[`Rating snapshots > matches snapshot for rating 1.5 and kind self 1`] = 
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating 1.5 and kind star 1`] = `
+exports[`Rating > matches snapshot for rating 1.5 and kind 'star' 1`] = `
 <div>
   <div
     aria-label="Rating: 1.5 out of 5. (official rating)"
@@ -589,7 +589,7 @@ exports[`Rating snapshots > matches snapshot for rating 1.5 and kind star 1`] = 
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating 3 and kind self 1`] = `
+exports[`Rating > matches snapshot for rating 3 and kind 'self' 1`] = `
 <div>
   <div
     aria-label="Rating: 3 out of 5. (self rated)"
@@ -685,7 +685,7 @@ exports[`Rating snapshots > matches snapshot for rating 3 and kind self 1`] = `
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating 3 and kind star 1`] = `
+exports[`Rating > matches snapshot for rating 3 and kind 'star' 1`] = `
 <div>
   <div
     aria-label="Rating: 3 out of 5. (official rating)"
@@ -783,7 +783,7 @@ exports[`Rating snapshots > matches snapshot for rating 3 and kind star 1`] = `
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating 4.5 and kind self 1`] = `
+exports[`Rating > matches snapshot for rating 4.5 and kind 'self' 1`] = `
 <div>
   <div
     aria-label="Rating: 4.5 out of 5. (self rated)"
@@ -879,7 +879,7 @@ exports[`Rating snapshots > matches snapshot for rating 4.5 and kind self 1`] = 
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating 4.5 and kind star 1`] = `
+exports[`Rating > matches snapshot for rating 4.5 and kind 'star' 1`] = `
 <div>
   <div
     aria-label="Rating: 4.5 out of 5. (official rating)"
@@ -975,7 +975,7 @@ exports[`Rating snapshots > matches snapshot for rating 4.5 and kind star 1`] = 
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating 5 and kind self 1`] = `
+exports[`Rating > matches snapshot for rating 5 and kind 'self' 1`] = `
 <div>
   <div
     aria-label="Rating: 5 out of 5. (self rated)"
@@ -1071,7 +1071,7 @@ exports[`Rating snapshots > matches snapshot for rating 5 and kind self 1`] = `
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating 5 and kind star 1`] = `
+exports[`Rating > matches snapshot for rating 5 and kind 'star' 1`] = `
 <div>
   <div
     aria-label="Rating: 5 out of 5. (official rating)"
@@ -1167,7 +1167,7 @@ exports[`Rating snapshots > matches snapshot for rating 5 and kind star 1`] = `
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating 6 and kind self 1`] = `
+exports[`Rating > matches snapshot for rating 6 and kind 'self' 1`] = `
 <div>
   <div
     aria-label="Rating: 5 out of 5. (self rated)"
@@ -1263,7 +1263,7 @@ exports[`Rating snapshots > matches snapshot for rating 6 and kind self 1`] = `
 </div>
 `;
 
-exports[`Rating snapshots > matches snapshot for rating 6 and kind star 1`] = `
+exports[`Rating > matches snapshot for rating 6 and kind 'star' 1`] = `
 <div>
   <div
     aria-label="Rating: 5 out of 5. (official rating)"

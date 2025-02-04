@@ -77,6 +77,7 @@ exports[`HotelListingsPage > matches snapshot for a loaded list of hotels 1`] = 
                 class="_image_b6868b"
               >
                 <img
+                  aria-label=""
                   class="_container_4e0440"
                   src="https://example.com/hotel_sydney.jpg"
                 />
@@ -265,9 +266,7 @@ exports[`HotelListingsPage > matches snapshot for a loaded list of hotels 1`] = 
                   <div
                     class="_price_b6868b"
                   >
-                    <span
-                      aria-description="200$"
-                    >
+                    <span>
                       <span
                         class="_extraLarge_ac58d8 _regular_ac58d8 _truncate_ac58d8"
                         style="color: black;"
@@ -302,6 +301,7 @@ exports[`HotelListingsPage > matches snapshot for a loaded list of hotels 1`] = 
                 class="_image_b6868b"
               >
                 <img
+                  aria-label=""
                   class="_container_4e0440"
                   src="https://example.com/hotel_melbourne.jpg"
                 />
@@ -483,9 +483,7 @@ exports[`HotelListingsPage > matches snapshot for a loaded list of hotels 1`] = 
                   <div
                     class="_price_b6868b"
                   >
-                    <span
-                      aria-description="350$"
-                    >
+                    <span>
                       <span
                         class="_extraLarge_ac58d8 _regular_ac58d8 _truncate_ac58d8"
                         style="color: black;"

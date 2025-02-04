@@ -1,13 +1,13 @@
-import { Result } from "./hotel_schema";
+import type { Result } from "./hotel_schema";
 
 export type FindHotelsRequest = {
-  sortOrder: 'low-first' | 'high-first'
-}
+	sortOrder: "low-first" | "high-first";
+};
 
 export type FindHotelsResponse = {
-  results: Result[];
-}
+	results: Result[];
+};
 
 export interface HotelService {
-  findHotels(request: FindHotelsRequest): Promise<FindHotelsResponse>;
+	findHotels(request: FindHotelsRequest): Promise<FindHotelsResponse>;
 }
