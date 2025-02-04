@@ -38,6 +38,14 @@
 ## Accessibility
 I tested things out with a screen reader to ensure that sufficient information is available to non-sighted users. Admittedly, though, improvements could be made here, as things were a bit verbose.
 
+## Improvements to be made
+- I use relative imports. In the real world, I never use relative imports. I always set up aliases for better maintainability. Unfortunately, by the time I realisd I hadn't set them up here, they were everywhere. c'est la vie.
+- I don't cleanly handle the case where there are no results.
+- The names of my components are a bit inconsistent. It'd be better if they weren't!
+- The loading state doesn't exactly match the shape of the loaded state. The transition would be better if it was.
+- More extensive testing with visual regression tests + Storybook.
+- More comprehensive integration tests. I don't have any tests for when the backend sends malformed data, for example.
+
 ## Commands you can run
 - `yarn dev` - Starts the dev server
 - `yarn build` - Does a production build
