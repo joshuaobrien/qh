@@ -5,6 +5,7 @@ import { PropsWithChildren } from "react";
 type TypographyProps = {
   color?: 'red' | 'green' | 'black' | 'grey'
   isBold?: boolean
+  isItalics?: boolean
 }
 
 export const Title = ({ children, color = 'black'}: PropsWithChildren<TypographyProps>) => (
@@ -19,8 +20,8 @@ export const Subtitle = ({ children, color = 'black'}: PropsWithChildren<Typogra
   </h3>
 )
 
-export const Body = ({ children, isBold, color = 'black'}: PropsWithChildren<TypographyProps>) => (
-  <span className={classNames(styles.normal, isBold ? styles.semibold : styles.regular, styles.truncate)} style={{ color }}>
+export const Body = ({ children, isBold, isItalics, color = 'black'}: PropsWithChildren<TypographyProps>) => (
+  <span className={classNames(styles.normal, isItalics && styles.italics, isBold ? styles.semibold : styles.regular, styles.truncate)} style={{ color }}>
     { children }
   </span>
 )

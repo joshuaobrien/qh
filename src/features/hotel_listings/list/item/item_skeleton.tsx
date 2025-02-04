@@ -2,13 +2,15 @@ import styles from './item_skeleton.module.css';
 
 type ItemSkeletonProps = {
   image: React.ReactNode;
-  imageLabel: React.ReactNode;
+  imageLabel?: React.ReactNode;
   title: React.ReactNode;
   address: React.ReactNode;
   rating: React.ReactNode;
   room: React.ReactNode;
   promotion: React.ReactNode;
-  price: React.ReactNode;
+  // We don't pass a loader in for the price,
+  // so it is optional.
+  price?: React.ReactNode;
   savings?: React.ReactNode;
   priceLabel: React.ReactNode;
 }
@@ -30,9 +32,13 @@ export const ItemSkeleton = ({
       <div className={styles.image}>
         { image }
       </div>
-      <div className={styles.imageLabel}>
-        { imageLabel }
-      </div>
+      { imageLabel != null ? (
+        <div className={styles.imageLabel}>
+          { imageLabel }
+        </div>
+      ): (
+        undefined
+      )}
     </div>
     <div className={styles.content}>
       <div className={styles.upper}>
@@ -57,17 +63,23 @@ export const ItemSkeleton = ({
             { promotion }
           </div>
         </div>
-        <div className={styles.pricingContainer}>
-          <div className={styles.priceLabel}>
-            { priceLabel }
-          </div>
-          <div className={styles.price}>
-            { price }
-          </div>
-          { savings && <div className={styles.savings}>
-            { savings }
-          </div> }
-        </div>
+        {
+          price != null ? (
+            <div className={styles.pricingContainer}>
+              <div className={styles.priceLabel}>
+                { priceLabel }
+              </div>
+              <div className={styles.price}>
+                { price }
+              </div>
+              { savings && <div className={styles.savings}>
+                { savings }
+              </div> }
+            </div>
+          ) : (
+            undefined
+          )
+        }
       </div>
     </div>
   </div>
