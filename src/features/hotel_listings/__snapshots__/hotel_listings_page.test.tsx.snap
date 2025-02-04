@@ -1,0 +1,516 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HotelListingsPage > matches snapshot for a loaded list of hotels 1`] = `
+<div>
+  <div
+    class="_container_a5b42b"
+  >
+    <div
+      class="_container_f57c3b"
+    >
+      <div
+        class="_logo_f57c3b"
+      >
+        <img
+          alt="The Qantas logo"
+          class="_logo_a5b42b"
+          src="/src/design_system/logo.png"
+        />
+      </div>
+      <div
+        class="_top_f57c3b"
+      >
+        <span
+          class="_normal_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+          style="color: black;"
+        >
+          Showing 
+          <span
+            class="_normal_ac58d8 _semibold_ac58d8 _truncate_ac58d8"
+            style="color: black;"
+          >
+            2
+          </span>
+           
+          <span
+            class="_normal_ac58d8 _italics_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+            style="color: black;"
+          >
+            hotels
+             in
+          </span>
+           
+          <span
+            class="_normal_ac58d8 _semibold_ac58d8 _truncate_ac58d8"
+            style="color: black;"
+          >
+            Sydney
+          </span>
+        </span>
+        <div>
+          <span>
+            Sort by 
+          </span>
+          <select>
+            <option
+              value="high-first"
+            >
+              Price high-low
+            </option>
+            <option
+              value="low-first"
+            >
+              Price low-high
+            </option>
+          </select>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <div
+            class="_card_b6868b"
+          >
+            <div
+              class="_imageContainer_b6868b"
+            >
+              <div
+                class="_image_b6868b"
+              >
+                <img
+                  class="_container_4e0440"
+                  src="https://example.com/hotel_sydney.jpg"
+                />
+              </div>
+              <div
+                class="_imageLabel_b6868b"
+              >
+                <span
+                  class="_normal_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+                  style="color: red;"
+                />
+              </div>
+            </div>
+            <div
+              class="_content_b6868b"
+            >
+              <div
+                class="_upper_b6868b"
+              >
+                <div
+                  class="_titleAndRatingContainer_b6868b"
+                >
+                  <div
+                    class="_title_b6868b"
+                  >
+                    <h2
+                      class="_large_ac58d8 _semibold_ac58d8 _truncate_ac58d8"
+                      style="color: black;"
+                    >
+                      Hotel Sydney
+                    </h2>
+                  </div>
+                  <div
+                    class="_rating_b6868b"
+                  >
+                    <div
+                      aria-label="Rating: 4.5 out of 5. (official rating)"
+                      class="_container_b2fdaf"
+                      role="img"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        <svg
+                          fill="rgb(251, 203, 59)"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <title>
+                            star
+                          </title>
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        aria-hidden="true"
+                      >
+                        <svg
+                          fill="rgb(251, 203, 59)"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <title>
+                            star
+                          </title>
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        aria-hidden="true"
+                      >
+                        <svg
+                          fill="rgb(251, 203, 59)"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <title>
+                            star
+                          </title>
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        aria-hidden="true"
+                      >
+                        <svg
+                          fill="rgb(251, 203, 59)"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <title>
+                            star
+                          </title>
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        aria-hidden="true"
+                      >
+                        <svg
+                          fill="rgb(251, 203, 59)"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <title>
+                            half star
+                          </title>
+                          <path
+                            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="_address_b6868b"
+                >
+                  <h3
+                    class="_normal_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+                    style="color: grey;"
+                  >
+                    123 Main St, Sydney
+                  </h3>
+                </div>
+              </div>
+              <div
+                class="_lower_b6868b"
+              >
+                <div
+                  class="_roomAndPromotionContainer_b6868b"
+                >
+                  <div
+                    class="_room_b6868b"
+                  >
+                    <span
+                      class="_normal_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+                      style="color: red;"
+                    >
+                      Deluxe Room
+                    </span>
+                  </div>
+                  <div
+                    class="_promotion_b6868b"
+                  >
+                    <span
+                      class="_normal_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+                      style="color: green;"
+                    >
+                      Free cancellation
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="_pricingContainer_b6868b"
+                >
+                  <div
+                    class="_priceLabel_b6868b"
+                  >
+                    <span
+                      class="_normal_ac58d8 _semibold_ac58d8 _truncate_ac58d8"
+                      style="color: black;"
+                    >
+                      1
+                    </span>
+                    <span
+                      class="_normal_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+                      style="color: black;"
+                    >
+                       night total AUD
+                    </span>
+                  </div>
+                  <div
+                    class="_price_b6868b"
+                  >
+                    <span
+                      aria-description="200$"
+                    >
+                      <span
+                        class="_extraLarge_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+                        style="color: black;"
+                      >
+                        200
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="_savings_b6868b"
+                  >
+                    <span
+                      class="_normal_ac58d8 _semibold_ac58d8 _truncate_ac58d8"
+                      style="color: red;"
+                    >
+                      Save $50~
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="_card_b6868b"
+          >
+            <div
+              class="_imageContainer_b6868b"
+            >
+              <div
+                class="_image_b6868b"
+              >
+                <img
+                  class="_container_4e0440"
+                  src="https://example.com/hotel_melbourne.jpg"
+                />
+              </div>
+              <div
+                class="_imageLabel_b6868b"
+              >
+                <span
+                  class="_normal_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+                  style="color: red;"
+                />
+              </div>
+            </div>
+            <div
+              class="_content_b6868b"
+            >
+              <div
+                class="_upper_b6868b"
+              >
+                <div
+                  class="_titleAndRatingContainer_b6868b"
+                >
+                  <div
+                    class="_title_b6868b"
+                  >
+                    <h2
+                      class="_large_ac58d8 _semibold_ac58d8 _truncate_ac58d8"
+                      style="color: black;"
+                    >
+                      Luxury Melbourne
+                    </h2>
+                  </div>
+                  <div
+                    class="_rating_b6868b"
+                  >
+                    <div
+                      aria-label="Rating: 5 out of 5. (official rating)"
+                      class="_container_b2fdaf"
+                      role="img"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        <svg
+                          fill="rgb(251, 203, 59)"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <title>
+                            star
+                          </title>
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        aria-hidden="true"
+                      >
+                        <svg
+                          fill="rgb(251, 203, 59)"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <title>
+                            star
+                          </title>
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        aria-hidden="true"
+                      >
+                        <svg
+                          fill="rgb(251, 203, 59)"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <title>
+                            star
+                          </title>
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        aria-hidden="true"
+                      >
+                        <svg
+                          fill="rgb(251, 203, 59)"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <title>
+                            star
+                          </title>
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        aria-hidden="true"
+                      >
+                        <svg
+                          fill="rgb(251, 203, 59)"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <title>
+                            star
+                          </title>
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="_address_b6868b"
+                >
+                  <h3
+                    class="_normal_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+                    style="color: grey;"
+                  >
+                    456 Collins St, Melbourne
+                  </h3>
+                </div>
+              </div>
+              <div
+                class="_lower_b6868b"
+              >
+                <div
+                  class="_roomAndPromotionContainer_b6868b"
+                >
+                  <div
+                    class="_room_b6868b"
+                  >
+                    <span
+                      class="_normal_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+                      style="color: red;"
+                    >
+                      Executive Suite
+                    </span>
+                  </div>
+                  <div
+                    class="_promotion_b6868b"
+                  />
+                </div>
+                <div
+                  class="_pricingContainer_b6868b"
+                >
+                  <div
+                    class="_priceLabel_b6868b"
+                  >
+                    <span
+                      class="_normal_ac58d8 _semibold_ac58d8 _truncate_ac58d8"
+                      style="color: black;"
+                    >
+                      1
+                    </span>
+                    <span
+                      class="_normal_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+                      style="color: black;"
+                    >
+                       night total AUD
+                    </span>
+                  </div>
+                  <div
+                    class="_price_b6868b"
+                  >
+                    <span
+                      aria-description="350$"
+                    >
+                      <span
+                        class="_extraLarge_ac58d8 _regular_ac58d8 _truncate_ac58d8"
+                        style="color: black;"
+                      >
+                        350
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="_savings_b6868b"
+                  >
+                    <span
+                      class="_normal_ac58d8 _semibold_ac58d8 _truncate_ac58d8"
+                      style="color: red;"
+                    >
+                      Save $75~
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

@@ -3,6 +3,10 @@ import mockData from './mock_data.json';
 import { RootSchema, Result } from "./hotel_schema";
 import { z } from "zod";
 
+// note: there aren't any tests for this, as in the real world
+// the service client would be making calls to a real backend.
+// this implementation is purely for local use, so tests do not
+// provide much value
 export class MockHotelClient implements HotelService {
   private listings: Result[];
 

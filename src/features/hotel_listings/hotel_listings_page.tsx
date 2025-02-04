@@ -22,7 +22,7 @@ export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
   const { isPending, error, data } = useFindHotels(hotelService, { sortOrder });
 
   const topLeft = isPending || error ? (
-    <Body />
+    <Body /> // no need to show anything here
   ) : (
     <HotelListingsSummary count={data.results.length} location="Sydney" />
   )
@@ -36,26 +36,29 @@ export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
 
   // todo(josh): comprehensive components for the error case + empty response case
   const content = isPending || error ? (
-    <ul>
-      {
-        Array(5).fill(undefined).map((_, i) => (
-          <li key={i}>
-            <ItemSkeleton
-              image={<SquareLoader />}
-              title={<TextLoader />}
-              rating={<TextLoader />}
-              address={<TextLoader />}
-              room={<TextLoader />}
-              promotion={<TextLoader />}
-              price={undefined}
-              savings={undefined}
-              priceLabel={undefined}
-            />
-          </li>
-        ))
-
-      }
-    </ul>
+    (
+      error ? <Body>Sorry, there was a problem finding hotels.</Body> : (
+        <ul aria-label="Loading">
+          {
+            Array(5).fill(undefined).map((_, i) => (
+              <li key={i} aria-hidden>
+                <ItemSkeleton
+                  image={<SquareLoader />}
+                  title={<TextLoader />}
+                  rating={<TextLoader />}
+                  address={<TextLoader />}
+                  room={<TextLoader />}
+                  promotion={<TextLoader />}
+                  price={undefined}
+                  savings={undefined}
+                  priceLabel={undefined}
+                />
+              </li>
+            ))
+          }
+        </ul>
+      )
+    )
   ) : (
     <ul>
       {
