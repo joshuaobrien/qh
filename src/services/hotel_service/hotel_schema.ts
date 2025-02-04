@@ -3,14 +3,14 @@ import { z } from "zod";
 export const PreviewImageSchema = z.object({
 	url: z.string().url(),
 	caption: z.string(),
-	imageType: z.string(),
+	imageType: z.enum(["PRIMARY"]),
 });
 
 export type PreviewImage = z.infer<typeof PreviewImageSchema>;
 
 export const RatingSchema = z.object({
 	ratingValue: z.number(),
-	ratingType: z.string(),
+	ratingType: z.enum(["self", "star"]),
 });
 
 export type Rating = z.infer<typeof RatingSchema>;
@@ -27,7 +27,7 @@ export type Property = z.infer<typeof PropertySchema>;
 
 export const PromotionSchema = z.object({
 	title: z.string(),
-	type: z.string(),
+	type: z.enum(["MEMBER", "CAMPAIGN"]),
 });
 
 export type Promotion = z.infer<typeof PromotionSchema>;
@@ -49,7 +49,7 @@ export const SavingsSchema = z
 export type Savings = z.infer<typeof SavingsSchema>;
 
 export const CancellationOptionSchema = z.object({
-	cancellationType: z.string(),
+	cancellationType: z.enum(["NOT_REFUNDABLE", "FREE_CANCELLATION"]),
 });
 
 export type CancellationOption = z.infer<typeof CancellationOptionSchema>;

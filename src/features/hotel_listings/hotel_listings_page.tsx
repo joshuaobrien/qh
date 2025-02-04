@@ -25,7 +25,7 @@ export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
 
 	const topLeft =
 		isPending || error ? (
-			<Body /> // no need to show anything here
+			<Body /> // no need to show anything here, but let's put something in the slot (thanks flexbox)
 		) : (
 			<HotelListingsSummary count={data.results.length} location="Sydney" />
 		);
@@ -84,17 +84,13 @@ export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
 									{result.property.address.join(", ")}
 								</Subtitle>
 							}
-							// todo(josh): see if we can type this more strongly. the rating types
-              // coming back from the API should be literals.
 							rating={
 								<Rating
 									rating={result.property.rating.ratingValue}
-									kind={result.property.rating.ratingType as "star" | "self"}
+									kind={result.property.rating.ratingType}
 								/>
 							}
 							room={<Body color="red">{result.offer.name}</Body>}
-							// todo(josh): see if we can type this more strongly. the cancellation
-              // types coming back from the API should be literals.
 							promotion={
 								result.offer.cancellationOption.cancellationType ===
 								"FREE_CANCELLATION" ? (
