@@ -4,6 +4,7 @@
 }
 
 .imageContainer {
+  min-width: 180px;
   width: 180px;
   aspect-ratio: 29/25;
 
@@ -34,6 +35,8 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+
+  min-width: 0;
 
   padding: 16px 24px 8px 0px;
 
