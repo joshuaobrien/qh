@@ -28,7 +28,7 @@ const mockHotelsData: FindHotelsResponse = {
 				previewImage: {
 					url: "https://example.com/hotel_sydney.jpg",
 					caption: "",
-					imageType: "",
+					imageType: "PRIMARY",
 				},
 				rating: { ratingValue: 4.5, ratingType: "star" },
 				propertyId: "sydney-1",
@@ -40,7 +40,7 @@ const mockHotelsData: FindHotelsResponse = {
 				savings: { amount: 50, currency: "AUD" },
 				promotion: {
 					title: "",
-					type: "",
+					type: "MEMBER",
 				},
 			},
 		},
@@ -52,7 +52,7 @@ const mockHotelsData: FindHotelsResponse = {
 				previewImage: {
 					url: "https://example.com/hotel_melbourne.jpg",
 					caption: "",
-					imageType: "",
+					imageType: "PRIMARY",
 				},
 				rating: { ratingValue: 5, ratingType: "star" },
 				propertyId: "melbourne-2",
@@ -60,11 +60,11 @@ const mockHotelsData: FindHotelsResponse = {
 			offer: {
 				name: "Executive Suite",
 				displayPrice: { amount: 350, currency: "AUD" },
-				cancellationOption: { cancellationType: "NOT_FREE_CANCELLATION" },
+				cancellationOption: { cancellationType: "NOT_REFUNDABLE" },
 				savings: { amount: 75, currency: "AUD" },
 				promotion: {
 					title: "",
-					type: "",
+					type: "MEMBER",
 				},
 			},
 		},
