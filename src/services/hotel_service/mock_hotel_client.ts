@@ -1,6 +1,10 @@
 import { z } from "zod";
 import { type Result, RootSchema } from "./hotel_schema";
-import type { FindHotelsRequest, HotelService } from "./hotel_service";
+import type {
+	FindHotelsRequest,
+	HotelService,
+	SortOrder,
+} from "./hotel_service";
 import mockData from "./mock_data.json";
 
 // note: there aren't any tests for this, as in the real world
@@ -35,10 +39,7 @@ export class MockHotelClient implements HotelService {
 	}
 }
 
-const sortMethods: Record<
-	"high-first" | "low-first",
-	(a: Result, b: Result) => number
-> = {
+const sortMethods: Record<SortOrder, (a: Result, b: Result) => number> = {
 	"high-first": (a, b) =>
 		b.offer.displayPrice.amount - a.offer.displayPrice.amount,
 	"low-first": (a, b) =>

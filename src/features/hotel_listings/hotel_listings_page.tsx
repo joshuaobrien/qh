@@ -3,7 +3,10 @@ import { SquareLoader, TextLoader } from "../../design_system/loader";
 import logo from "../../design_system/logo.png";
 import { Body, Subtitle, Title } from "../../design_system/typography";
 import { useFindHotels } from "../../services/hotel_service/hotel_queries";
-import type { HotelService } from "../../services/hotel_service/hotel_service";
+import type {
+	HotelService,
+	SortOrder,
+} from "../../services/hotel_service/hotel_service";
 import styles from "./hotel_listing_page.module.css";
 import { HotelListingsSummary } from "./hotel_listings_summary";
 import { ItemImage } from "./list/item/image/item_image";
@@ -18,9 +21,7 @@ type HotelListingsPageProps = {
 };
 
 export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
-	const [sortOrder, setSortOrder] = useState<"high-first" | "low-first">(
-		"high-first",
-	);
+	const [sortOrder, setSortOrder] = useState<SortOrder>("high-first");
 	const { isPending, error, data } = useFindHotels(hotelService, { sortOrder });
 
 	const topLeft =

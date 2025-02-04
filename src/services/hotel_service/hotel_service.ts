@@ -1,7 +1,9 @@
 import type { Result } from "./hotel_schema";
 
+export type SortOrder = "low-first" | "high-first";
+
 export type FindHotelsRequest = {
-	sortOrder: "low-first" | "high-first";
+	sortOrder: SortOrder;
 };
 
 export type FindHotelsResponse = {

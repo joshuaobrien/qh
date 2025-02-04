@@ -48,10 +48,14 @@ exports[`HotelListingsPage > matches snapshot for a loaded list of hotels 1`] = 
           </span>
         </span>
         <div>
-          <span>
+          <label
+            for="sort-order"
+          >
             Sort by 
-          </span>
-          <select>
+          </label>
+          <select
+            id="sort-order"
+          >
             <option
               value="high-first"
             >
