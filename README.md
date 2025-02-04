@@ -1,4 +1,5 @@
 # Qantas Hotels front-end takehome task
+Thank you for considering my submission! 🦘🛫
 
 ## Main technologies used
 - React & TypeScript
@@ -43,8 +44,9 @@ I tested things out with a screen reader to ensure that sufficient information i
 - I don't cleanly handle the case where there are no results.
 - The names of my components are a bit inconsistent. It'd be better if they weren't!
 - The loading state doesn't exactly match the shape of the loaded state. The transition would be better if it was.
-- More extensive testing with visual regression tests + Storybook.
+- More extensive testing, along with visual regression tests + Storybook.
 - More comprehensive integration tests. I don't have any tests for when the backend sends malformed data, for example.
+- Better responsive design. Although the solution is responsive, I could handle more breakpoints and improve the design.
 
 ## Commands you can run
 - `yarn dev` - Starts the dev server

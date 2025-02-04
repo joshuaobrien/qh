@@ -120,6 +120,15 @@ describe("HotelListingsPage", () => {
 		});
 	});
 
+	it("renders empty state when there are no results", async () => {
+		vi.mocked(hotelService).findHotels.mockResolvedValue({ results: [] });
+		renderWithQueryClient(<HotelListingsPage hotelService={hotelService} />);
+		await waitFor(() => {
+			expect(screen.queryByRole("list")).toBeNull();
+			expect(screen.getByText("No results found.")).toBeDefined();
+		});
+	});
+
 	it("applies default sorting order on initial render", async () => {
 		vi.mocked(hotelService).findHotels.mockResolvedValue(mockHotelsData);
 		renderWithQueryClient(<HotelListingsPage hotelService={hotelService} />);

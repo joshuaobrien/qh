@@ -40,12 +40,15 @@ export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
 			content = <Body>Sorry, there was a problem finding hotels.</Body>;
 			break;
 		case "ready":
-			content = (
-				<ReadyContent
-					results={data.results}
-					stayLengthNights={stayLengthNights}
-				/>
-			);
+			content =
+				data.results.length === 0 ? (
+					<Body>No results found.</Body>
+				) : (
+					<ReadyContent
+						results={data.results}
+						stayLengthNights={stayLengthNights}
+					/>
+				);
 			break;
 		default:
 			status satisfies never;
