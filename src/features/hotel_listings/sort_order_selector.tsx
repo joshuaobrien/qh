@@ -1,14 +1,14 @@
 import type { ChangeEvent } from "react";
 
-type HotelListingsSorderOrderSelectorProps = {
+type HotelListingsSortOrderSelectorProps = {
 	sortOrder: "high-first" | "low-first";
 	setSortOrder: (value: "high-first" | "low-first") => void;
 };
 
-export const HotelListingsSorderOrderSelector = ({
+export const HotelListingsSortOrderSelector = ({
 	sortOrder,
 	setSortOrder,
-}: HotelListingsSorderOrderSelectorProps) => {
+}: HotelListingsSortOrderSelectorProps) => {
 	const onChange = (e: ChangeEvent<HTMLSelectElement>) =>
 		setSortOrder(e.target.value as "high-first" | "low-first");
 	return (

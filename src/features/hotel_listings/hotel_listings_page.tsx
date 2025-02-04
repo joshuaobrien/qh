@@ -11,7 +11,7 @@ import { ItemSkeleton } from "./list/item/item_skeleton";
 import { Price } from "./list/item/price";
 import { Rating } from "./list/item/rating/rating";
 import { HotelListingsSkeleton } from "./skeleton/hotel_listings_skeleton";
-import { HotelListingsSorderOrderSelector } from "./sort_order_selector";
+import { HotelListingsSortOrderSelector } from "./sort_order_selector";
 
 type HotelListingsPageProps = {
 	hotelService: HotelService;
@@ -31,7 +31,7 @@ export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
 		);
 
 	const topRight = (
-		<HotelListingsSorderOrderSelector
+		<HotelListingsSortOrderSelector
 			sortOrder={sortOrder}
 			setSortOrder={setSortOrder}
 		/>
