@@ -35,29 +35,39 @@ export const ItemSkeleton = ({
       </div>
     </div>
     <div className={styles.content}>
-      <div className={styles.title}>
-        { title }
+      <div className={styles.upper}>
+        <div className={styles.titleAndRatingContainer}>
+          <div className={styles.title}>
+            { title }
+          </div>
+          <div className={styles.rating}>
+            { rating }
+          </div>
+        </div>
+        <div className={styles.address}>
+          { address }
+        </div>
       </div>
-      <div className={styles.address}>
-        { address }
-      </div>
-      <div className={styles.rating}>
-        { rating }
-      </div>
-      <div className={styles.room}>
-        { room }
-      </div>
-      <div className={styles.promotion}>
-        { promotion }
-      </div>
-      <div className={styles.price}>
-        { price }
-      </div>
-      { savings && <div className={styles.savings}>
-        { savings }
-      </div> }
-      <div className={styles.priceLabel}>
-        { priceLabel }
+      <div className={styles.lower}>
+        <div className={styles.roomAndPromotionContainer}>
+          <div className={styles.room}>
+            { room }
+          </div>
+          <div className={styles.promotion}>
+            { promotion }
+          </div>
+        </div>
+        <div className={styles.pricingContainer}>
+          <div className={styles.priceLabel}>
+            { priceLabel }
+          </div>
+          <div className={styles.price}>
+            { price }
+          </div>
+          { savings && <div className={styles.savings}>
+            { savings }
+          </div> }
+        </div>
       </div>
     </div>
   </div>
