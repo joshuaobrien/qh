@@ -84,7 +84,8 @@ export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
 									{result.property.address.join(", ")}
 								</Subtitle>
 							}
-							// todo(josh): see if we can type this more strongly
+							// todo(josh): see if we can type this more strongly. the rating types
+              // coming back from the API should be literals.
 							rating={
 								<Rating
 									rating={result.property.rating.ratingValue}
@@ -92,7 +93,8 @@ export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
 								/>
 							}
 							room={<Body color="red">{result.offer.name}</Body>}
-							// todo(josh): see if we can type this more strongly
+							// todo(josh): see if we can type this more strongly. the cancellation
+              // types coming back from the API should be literals.
 							promotion={
 								result.offer.cancellationOption.cancellationType ===
 								"FREE_CANCELLATION" ? (
@@ -103,7 +105,7 @@ export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
 							savings={
 								<Body color="red" isBold>
 									{result.offer.savings != null
-										? `Save $${result.offer.savings?.amount}~`
+										? `Save $${result.offer.savings.amount}~`
 										: undefined}
 								</Body>
 							}
