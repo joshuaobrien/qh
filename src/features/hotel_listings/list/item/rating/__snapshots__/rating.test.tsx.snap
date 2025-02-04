@@ -9,6 +9,7 @@ exports[`Rating > matches snapshot for rating +0 and kind 'self' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -26,6 +27,7 @@ exports[`Rating > matches snapshot for rating +0 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -43,6 +45,7 @@ exports[`Rating > matches snapshot for rating +0 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -60,6 +63,7 @@ exports[`Rating > matches snapshot for rating +0 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -77,6 +81,7 @@ exports[`Rating > matches snapshot for rating +0 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -105,6 +110,7 @@ exports[`Rating > matches snapshot for rating +0 and kind 'star' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -123,6 +129,7 @@ exports[`Rating > matches snapshot for rating +0 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -141,6 +148,7 @@ exports[`Rating > matches snapshot for rating +0 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -159,6 +167,7 @@ exports[`Rating > matches snapshot for rating +0 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -177,6 +186,7 @@ exports[`Rating > matches snapshot for rating +0 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -206,6 +216,7 @@ exports[`Rating > matches snapshot for rating -1 and kind 'self' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -223,6 +234,7 @@ exports[`Rating > matches snapshot for rating -1 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -240,6 +252,7 @@ exports[`Rating > matches snapshot for rating -1 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -257,6 +270,7 @@ exports[`Rating > matches snapshot for rating -1 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -274,6 +288,7 @@ exports[`Rating > matches snapshot for rating -1 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -302,6 +317,7 @@ exports[`Rating > matches snapshot for rating -1 and kind 'star' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -320,6 +336,7 @@ exports[`Rating > matches snapshot for rating -1 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -338,6 +355,7 @@ exports[`Rating > matches snapshot for rating -1 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -356,6 +374,7 @@ exports[`Rating > matches snapshot for rating -1 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -374,6 +393,7 @@ exports[`Rating > matches snapshot for rating -1 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -403,6 +423,7 @@ exports[`Rating > matches snapshot for rating 1.5 and kind 'self' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -420,6 +441,7 @@ exports[`Rating > matches snapshot for rating 1.5 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -437,6 +459,7 @@ exports[`Rating > matches snapshot for rating 1.5 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -454,6 +477,7 @@ exports[`Rating > matches snapshot for rating 1.5 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -471,6 +495,7 @@ exports[`Rating > matches snapshot for rating 1.5 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -499,6 +524,7 @@ exports[`Rating > matches snapshot for rating 1.5 and kind 'star' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -516,6 +542,7 @@ exports[`Rating > matches snapshot for rating 1.5 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -533,6 +560,7 @@ exports[`Rating > matches snapshot for rating 1.5 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -551,6 +579,7 @@ exports[`Rating > matches snapshot for rating 1.5 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -569,6 +598,7 @@ exports[`Rating > matches snapshot for rating 1.5 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -598,6 +628,7 @@ exports[`Rating > matches snapshot for rating 3 and kind 'self' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -615,6 +646,7 @@ exports[`Rating > matches snapshot for rating 3 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -632,6 +664,7 @@ exports[`Rating > matches snapshot for rating 3 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -649,6 +682,7 @@ exports[`Rating > matches snapshot for rating 3 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -666,6 +700,7 @@ exports[`Rating > matches snapshot for rating 3 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -694,6 +729,7 @@ exports[`Rating > matches snapshot for rating 3 and kind 'star' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -711,6 +747,7 @@ exports[`Rating > matches snapshot for rating 3 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -728,6 +765,7 @@ exports[`Rating > matches snapshot for rating 3 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -745,6 +783,7 @@ exports[`Rating > matches snapshot for rating 3 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -763,6 +802,7 @@ exports[`Rating > matches snapshot for rating 3 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -792,6 +832,7 @@ exports[`Rating > matches snapshot for rating 4.5 and kind 'self' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -809,6 +850,7 @@ exports[`Rating > matches snapshot for rating 4.5 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -826,6 +868,7 @@ exports[`Rating > matches snapshot for rating 4.5 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -843,6 +886,7 @@ exports[`Rating > matches snapshot for rating 4.5 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -860,6 +904,7 @@ exports[`Rating > matches snapshot for rating 4.5 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -888,6 +933,7 @@ exports[`Rating > matches snapshot for rating 4.5 and kind 'star' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -905,6 +951,7 @@ exports[`Rating > matches snapshot for rating 4.5 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -922,6 +969,7 @@ exports[`Rating > matches snapshot for rating 4.5 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -939,6 +987,7 @@ exports[`Rating > matches snapshot for rating 4.5 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -956,6 +1005,7 @@ exports[`Rating > matches snapshot for rating 4.5 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -984,6 +1034,7 @@ exports[`Rating > matches snapshot for rating 5 and kind 'self' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1001,6 +1052,7 @@ exports[`Rating > matches snapshot for rating 5 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1018,6 +1070,7 @@ exports[`Rating > matches snapshot for rating 5 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1035,6 +1088,7 @@ exports[`Rating > matches snapshot for rating 5 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1052,6 +1106,7 @@ exports[`Rating > matches snapshot for rating 5 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1080,6 +1135,7 @@ exports[`Rating > matches snapshot for rating 5 and kind 'star' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1097,6 +1153,7 @@ exports[`Rating > matches snapshot for rating 5 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1114,6 +1171,7 @@ exports[`Rating > matches snapshot for rating 5 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1131,6 +1189,7 @@ exports[`Rating > matches snapshot for rating 5 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1148,6 +1207,7 @@ exports[`Rating > matches snapshot for rating 5 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1176,6 +1236,7 @@ exports[`Rating > matches snapshot for rating 6 and kind 'self' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1193,6 +1254,7 @@ exports[`Rating > matches snapshot for rating 6 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1210,6 +1272,7 @@ exports[`Rating > matches snapshot for rating 6 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1227,6 +1290,7 @@ exports[`Rating > matches snapshot for rating 6 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1244,6 +1308,7 @@ exports[`Rating > matches snapshot for rating 6 and kind 'self' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1272,6 +1337,7 @@ exports[`Rating > matches snapshot for rating 6 and kind 'star' 1`] = `
   >
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1289,6 +1355,7 @@ exports[`Rating > matches snapshot for rating 6 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1306,6 +1373,7 @@ exports[`Rating > matches snapshot for rating 6 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1323,6 +1391,7 @@ exports[`Rating > matches snapshot for rating 6 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"
@@ -1340,6 +1409,7 @@ exports[`Rating > matches snapshot for rating 6 and kind 'star' 1`] = `
     </span>
     <span
       aria-hidden="true"
+      class="_icon_b2fdaf"
     >
       <svg
         fill="rgb(251, 203, 59)"

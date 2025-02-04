@@ -46,7 +46,11 @@ export const Rating = ({ rating, kind }: RatingProps) => {
 				.map((_, i) => {
 					const { Icon, name } = selectIcon(i);
 					return (
-						<span key={`${i}${kind}${name}`} aria-hidden>
+						<span
+							key={`${i}${kind}${name}`}
+							aria-hidden
+							className={styles.icon}
+						>
 							<Icon />
 						</span>
 					);
