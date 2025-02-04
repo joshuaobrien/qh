@@ -46,10 +46,11 @@ I tested things out with a screen reader to ensure that sufficient information i
 - The loading state doesn't exactly match the shape of the loaded state. The transition would be better if it was.
 - More extensive testing, along with visual regression tests + Storybook.
 - More comprehensive integration tests. I don't have any tests for when the backend sends malformed data, for example.
-- Better responsive design. Although the solution is responsive, I could handle more breakpoints and improve the design.
+- Better responsive design. Although the solution is responsive, I could handle more breakpoints and improve the design. I spent the majority of my time implementing the larger screen design.
 
 ## Commands you can run
 - `yarn dev` - Starts the dev server
 - `yarn build` - Does a production build
 - `yarn test` - Runs the tests
 - `yarn lint-and-format` - Runs the formatter and linter, with autofix on
+- `yarn preview` - Previews the production build
