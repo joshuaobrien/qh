@@ -18,6 +18,8 @@ Thank you for considering my submission! 🦘🛫
 - Skeleton components: I tend to create 'skeleton' components that are solely responsible for receiving nodes and placing them in the right spot. This makes features more maintainable and makes it much easier to use feature flags to turn things on or off or to give different cohorts of users different experiences.
 - Type safety: Type safety is a priority for me. I used Zod to define schemas, ensuring data accuracy and removing entire classes of bugs at compile time.
 - Feature composition: I placed design system components in their own separate folder. In a larger application, the goal is that most features would be composed primarily of design system components, with minimal CSS in feature folders. This ensures consistency across the product.
+- Design system: the design system components I've created are by no means exhaustive. I just find that if you don't put things like typography
+there right away, things get out of hand quickly and it's a pain to refactor.
 - Error handling: I used Zod to validate API responses to prevent unexpected crashes due to malformed data. In a larger project, I would integrate global error handling mechanisms, potentially logging errors to an external service.
 - Logging and debugging: I kept logging minimal, but in a real-world project, I would add structured logs with contextual information for easier debugging in production.
 
