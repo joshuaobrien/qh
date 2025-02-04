@@ -9,6 +9,7 @@ Thank you for considering my submission! 🦘🛫
 - Vitest
 - TanStack Query
 - Biome
+- Yarn
 
 ## Design considerations
 - Next.js: I didn't use it, mainly so that there are fewer moving parts, given the interview context.
@@ -48,7 +49,7 @@ I tested things out with a screen reader to ensure that sufficient information i
 - More comprehensive integration tests. I don't have any tests for when the backend sends malformed data, for example.
 - Better responsive design. Although the solution is responsive, I could handle more breakpoints and improve the design. I spent the majority of my time implementing the larger screen design.
 
-## Commands you can run
+## Commands you can run (after running `yarn` to install dependencies)
 - `yarn dev` - Starts the dev server
 - `yarn build` - Does a production build
 - `yarn test` - Runs the tests
