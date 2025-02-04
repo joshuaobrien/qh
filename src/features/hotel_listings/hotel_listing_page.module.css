@@ -1,10 +1,10 @@
 .container {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 
-	padding: 24px;
+  padding: 24px;
 }
 
 .logo {
-	width: 100%;
+  width: 100%;
 }

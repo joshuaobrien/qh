@@ -1,8 +1,8 @@
 .container {
-	display: flex;
+  display: flex;
 }
 
 .icon {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }

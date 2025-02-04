@@ -11,9 +11,9 @@ const queryClient = new QueryClient();
 
 // biome-ignore lint/style/noNonNullAssertion: if root isn't there, then everything's over anyways
 createRoot(document.getElementById("root")!).render(
-	<StrictMode>
-		<QueryClientProvider client={queryClient}>
-			<App hotelService={hotelService} />
-		</QueryClientProvider>
-	</StrictMode>,
+  <StrictMode>
+    <QueryClientProvider client={queryClient}>
+      <App hotelService={hotelService} />
+    </QueryClientProvider>
+  </StrictMode>,
 );
