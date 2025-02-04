@@ -50,7 +50,7 @@ export const ReadyContent = ({
 					priceLabel={
 						<>
 							<Body isBold>{stayLengthNights}</Body>
-							<Body>{` night total ${result.offer.displayPrice.currency}`}</Body>
+							<Body>{` night total (${result.offer.displayPrice.currency})`}</Body>
 						</>
 					}
 				/>

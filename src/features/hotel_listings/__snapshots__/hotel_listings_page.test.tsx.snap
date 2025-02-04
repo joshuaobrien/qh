@@ -269,7 +269,7 @@ exports[`HotelListingsPage > matches snapshot for a loaded list of hotels 1`] = 
                       class="_normal_ac58d8 _regular_ac58d8 _truncate_ac58d8"
                       style="color: black;"
                     >
-                       night total AUD
+                       night total (AUD)
                     </span>
                   </div>
                   <div
@@ -491,7 +491,7 @@ exports[`HotelListingsPage > matches snapshot for a loaded list of hotels 1`] = 
                       class="_normal_ac58d8 _regular_ac58d8 _truncate_ac58d8"
                       style="color: black;"
                     >
-                       night total AUD
+                       night total (AUD)
                     </span>
                   </div>
                   <div
