@@ -121,6 +121,7 @@ describe("HotelListingsPage", () => {
 	});
 
 	it("applies default sorting order on initial render", async () => {
+		vi.mocked(hotelService).findHotels.mockResolvedValue(mockHotelsData);
 		renderWithQueryClient(<HotelListingsPage hotelService={hotelService} />);
 		expect(vi.mocked(hotelService).findHotels).toHaveBeenLastCalledWith({
 			sortOrder: "high-first",
@@ -128,6 +129,7 @@ describe("HotelListingsPage", () => {
 	});
 
 	it("changes sort order and verifies correct sorting", async () => {
+		vi.mocked(hotelService).findHotels.mockResolvedValue(mockHotelsData);
 		renderWithQueryClient(<HotelListingsPage hotelService={hotelService} />);
 		expect(vi.mocked(hotelService).findHotels).toHaveBeenLastCalledWith({
 			sortOrder: "high-first",

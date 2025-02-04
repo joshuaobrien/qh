@@ -5,7 +5,10 @@ import { ItemSkeleton } from "./list/item/item_skeleton";
 import { Price } from "./list/item/price";
 import { Rating } from "./list/item/rating/rating";
 
-export const ReadyContent = ({ results }: { results: Result[] }) => (
+export const ReadyContent = ({
+	results,
+	stayLengthNights,
+}: { results: Result[]; stayLengthNights: number }) => (
 	<ul>
 		{results.map((result) => (
 			<li key={result.id}>
@@ -46,7 +49,7 @@ export const ReadyContent = ({ results }: { results: Result[] }) => (
 					}
 					priceLabel={
 						<>
-							<Body isBold>1</Body>
+							<Body isBold>{stayLengthNights}</Body>
 							<Body>{` night total ${result.offer.displayPrice.currency}`}</Body>
 						</>
 					}

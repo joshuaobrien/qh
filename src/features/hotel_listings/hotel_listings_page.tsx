@@ -15,12 +15,12 @@ type HotelListingsPageProps = {
 };
 
 export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
-	const { sortOrder, setSortOrder, status, data } =
+	const { sortOrder, setSortOrder, status, data, location, stayLengthNights } =
 		useHotelListings(hotelService);
 
 	const topLeft =
 		status === "ready" ? (
-			<HotelListingsSummary count={data.results.length} location="Sydney" />
+			<HotelListingsSummary count={data.results.length} location={location} />
 		) : undefined;
 
 	const topRight = (
@@ -40,7 +40,12 @@ export const HotelListingsPage = ({ hotelService }: HotelListingsPageProps) => {
 			content = <Body>Sorry, there was a problem finding hotels.</Body>;
 			break;
 		case "ready":
-			content = <ReadyContent results={data.results} />;
+			content = (
+				<ReadyContent
+					results={data.results}
+					stayLengthNights={stayLengthNights}
+				/>
+			);
 			break;
 		default:
 			status satisfies never;

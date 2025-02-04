@@ -6,13 +6,21 @@ import type {
 } from "../../services/hotel_service/hotel_service";
 
 export const useHotelListings = (hotelService: HotelService) => {
+	const location = "Sydney";
+	const stayLengthNights = 1;
 	const [sortOrder, setSortOrder] = useState<SortOrder>("high-first");
 	const { isPending, error, data } = useFindHotels(hotelService, { sortOrder });
 
+	const sharedValues = {
+		sortOrder,
+		setSortOrder,
+		location,
+		stayLengthNights,
+	};
+
 	if (isPending) {
 		return {
-			sortOrder,
-			setSortOrder,
+			...sharedValues,
 			status: "loading",
 			data: undefined,
 		} as const;
@@ -20,12 +28,11 @@ export const useHotelListings = (hotelService: HotelService) => {
 
 	if (error) {
 		return {
-			sortOrder,
-			setSortOrder,
+			...sharedValues,
 			status: "error",
 			data: undefined,
 		} as const;
 	}
 
-	return { sortOrder, setSortOrder, status: "ready", data } as const;
+	return { ...sharedValues, status: "ready", data } as const;
 };
