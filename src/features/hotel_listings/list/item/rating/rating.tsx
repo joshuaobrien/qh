@@ -19,8 +19,9 @@ const icons = {
 };
 
 export const Rating = ({ rating, kind }: RatingProps) => {
-  const fullCount = Math.floor(rating);
-  const hasHalf = !Number.isInteger(rating)
+  const clampedRating = Math.min(Math.max(rating, 0), TOTAL_COUNT);
+  const fullCount = Math.floor(clampedRating);
+  const hasHalf = !Number.isInteger(clampedRating)
 
   const { Full, Half, Empty } = icons[kind];
 
@@ -35,11 +36,19 @@ export const Rating = ({ rating, kind }: RatingProps) => {
   };
 
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      role="img"
+      aria-label={`Rating: ${clampedRating} out of ${TOTAL_COUNT}. (${kind === 'star' ? 'official rating' : 'self rated'})`}
+    >
       {
         Array(TOTAL_COUNT).fill(undefined).map((_, i) => {
           const Icon = selectIcon(i)
-          return <Icon key={i} />
+          return (
+            <span key={i} aria-hidden>
+              <Icon key={i} />
+            </span>
+          )
         })
       }
     </div>

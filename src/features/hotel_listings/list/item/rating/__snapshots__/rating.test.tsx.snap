@@ -1,0 +1,1360 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Rating snapshots > matches snapshot for rating -1 and kind self 1`] = `
+<div>
+  <div
+    aria-label="Rating: 0 out of 5. (self rated)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating -1 and kind star 1`] = `
+<div>
+  <div
+    aria-label="Rating: 0 out of 5. (official rating)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating 0 and kind self 1`] = `
+<div>
+  <div
+    aria-label="Rating: 0 out of 5. (self rated)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating 0 and kind star 1`] = `
+<div>
+  <div
+    aria-label="Rating: 0 out of 5. (official rating)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating 1.5 and kind self 1`] = `
+<div>
+  <div
+    aria-label="Rating: 1.5 out of 5. (self rated)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          half circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.14V4.86a7.14,7.14,0,0,1,0,14.28Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating 1.5 and kind star 1`] = `
+<div>
+  <div
+    aria-label="Rating: 1.5 out of 5. (official rating)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          half star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating 3 and kind self 1`] = `
+<div>
+  <div
+    aria-label="Rating: 3 out of 5. (self rated)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.2A7.2,7.2,0,1,1,19.2,12,7.21,7.21,0,0,1,12,19.2Z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating 3 and kind star 1`] = `
+<div>
+  <div
+    aria-label="Rating: 3 out of 5. (official rating)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        test-id="a"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          empty star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating 4.5 and kind self 1`] = `
+<div>
+  <div
+    aria-label="Rating: 4.5 out of 5. (self rated)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          half circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm0,16.14V4.86a7.14,7.14,0,0,1,0,14.28Z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating 4.5 and kind star 1`] = `
+<div>
+  <div
+    aria-label="Rating: 4.5 out of 5. (official rating)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          half star
+        </title>
+        <path
+          d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating 5 and kind self 1`] = `
+<div>
+  <div
+    aria-label="Rating: 5 out of 5. (self rated)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating 5 and kind star 1`] = `
+<div>
+  <div
+    aria-label="Rating: 5 out of 5. (official rating)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating 6 and kind self 1`] = `
+<div>
+  <div
+    aria-label="Rating: 5 out of 5. (self rated)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          circle
+        </title>
+        <path
+          d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rating snapshots > matches snapshot for rating 6 and kind star 1`] = `
+<div>
+  <div
+    aria-label="Rating: 5 out of 5. (official rating)"
+    class="_container_b2fdaf"
+    role="img"
+  >
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
+    >
+      <svg
+        fill="rgb(251, 203, 59)"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <title>
+          star
+        </title>
+        <path
+          d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
