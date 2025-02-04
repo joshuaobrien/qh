@@ -4,7 +4,7 @@
 }
 
 .imageContainer {
-  width: 160px;
+  width: 180px;
   aspect-ratio: 29/25;
 
   padding: 8px 0;
@@ -19,7 +19,9 @@
 
 .imageLabel {
   position: absolute;
-  top: 5%;
+  /* The image container has 8px padding on it,
+  so we need to take that into account here */
+  top: calc(5% + 8px);
 
   padding: 4px 8px;
 

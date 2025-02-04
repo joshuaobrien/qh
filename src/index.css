@@ -15,9 +15,10 @@ body {
   font-family: 'Ciutadella';
 }
 
-h2, h3 {
+h2, h3, ul, li {
   all: unset;
 }
+
 
 @font-face{
   font-family: "Ciutadella";
